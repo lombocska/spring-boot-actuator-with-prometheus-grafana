@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+
+  grafana-prometheus-example-1:
+    container_name: app-1
+    image: lombocska/spring-boot-actuator-with-grafana-prometheus
+    ports:
+      - "8080:8080"
+    environment:
+      LOG_LEVEL_APP: INFO

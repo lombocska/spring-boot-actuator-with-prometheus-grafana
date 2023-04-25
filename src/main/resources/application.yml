@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: '@name@'
+    version: '@version@'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+logging:
+  level:
+    io.lombocska: ${LOG_LEVEL_APP:DEBUG}
+    org.springframework.security: INFO
