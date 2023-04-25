@@ -44,10 +44,8 @@ I used a premade grafana dashboard template from [here](https://grafana.com/graf
 > Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.
 > Since its inception in 2012, many companies and organizations have adopted Prometheus, and the project has a very active developer and account community.
 
-The default dashboard for JVM micrometer had created by [Michael Weirauch](https://grafana.com/orgs/mweirauch) and the template can be found [here](https://grafana.com/grafana/dashboards/4701).
+The default dashboard for Spring Boot dashboard template can be found [here](https://grafana.com/grafana/dashboards/11378-justai-system-monitor/).
 
-
-![prometheus jvm](./doc/prometheus-jvm-metrics.png)
 
 
 ### docker-compose-maven-plugin
